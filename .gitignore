@@ -1,7 +1,3 @@
-*.iml
-*.orig
 */target/*
 /.idea/
-/.settings/
 *.mvn
-*.idea
