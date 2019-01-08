@@ -1,4 +1,4 @@
-package com.liyu.servicehi;
+package com.liyu.servicelucy;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Value;
@@ -17,19 +17,14 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @RestController
-@EnableHystrix//注解开启断路器
-@EnableHystrixDashboard//开启HystrixDashboard
+@EnableHystrix
+@EnableHystrixDashboard
 @EnableCircuitBreaker
-public class ServiceHiApplication {
-    /**
-     * 访问地址 http://localhost:8762/actuator/hystrix.stream
-     * @param args
-     */
+public class ServiceLucyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run( ServiceHiApplication.class, args );
+        SpringApplication.run( ServiceLucyApplication.class, args );
     }
-
     @Value("${server.port}")
     String port;
 
