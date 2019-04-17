@@ -42,4 +42,10 @@ public class ServiceHiApplication {
     public String hiError(String name) {
         return "hi,"+name+",sorry,error!";
     }
+
+    public static void main(String[] args) {
+
+
+
+    }
 }
