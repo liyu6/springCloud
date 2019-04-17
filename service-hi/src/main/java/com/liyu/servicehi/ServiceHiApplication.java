@@ -55,6 +55,8 @@ public class ServiceHiApplication {
     	System.out.println("AAAAAAAA");
     	System.out.println("AAAAAAAA");
     	System.out.println("AAAAAAAA");
+    	System.out.println("AAAAAAAA");
+    	System.out.println("主干");
 
     }
 }
