@@ -49,7 +49,7 @@ public class ServiceHiApplication {
 
     public static void main(String[] args) {
 
-    	System.out.println("AAAAAAAA");
+    	System.out.println("bbbbbb");
 
     }
 }
