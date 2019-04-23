@@ -48,7 +48,7 @@ public class ServiceHiApplication {
 
 
     public static void main(String[] args) {
-        System.out.println("我是demo1分支");
+        System.out.println("我是demo2分支");
 
     }
 }
